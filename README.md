@@ -21,4 +21,12 @@ This is a simple version of the game inspired from the T-rex game that appears o
 
 * Currently we have a bounding box that is enveloping the T-rex image. The dimensions of these bounding boxes are used to detect a collision with an obstacle. Now the shape of the box is a square. As the dimensions of the box are not the same as the image(they are slightly bigger than the image ) for technical reasons , Collision occurs even when the actual image of the T-Rex has not hit the obstacle. This is not the code issue . Therefore any improvements to the technique for detecting collision are welcomed.
 
+* An image of the collision is shown below , We can see that game over appears because bounding box for the image hits the cactus , but this is not the case in real games.
+
+![](Captures/ss1.png)
+
+## Game Clip
+
+![](Captures/clip.gif)
+
 
